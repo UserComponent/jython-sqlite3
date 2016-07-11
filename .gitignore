@@ -2,3 +2,4 @@
 *.class
 dist/
 MANIFEST
+.pypirc
