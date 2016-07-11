@@ -34,7 +34,7 @@ You'll also need the sqlite-jdbc jar holding this module together, and include t
   dependencies {
       ...
       runtime "org.xerial:sqlite-jdbc:3.8.11.2"
-      jython "anthonyhendrickson:jython-sqlite3:0.1.0"
+      jython "anthonyhendrickson:jython-sqlite3:0.1.0:sqlite3"
   }
 
 *Note: there are other methods of adding the jython-sqlite3 module for runtime usage, but none so clean.*
