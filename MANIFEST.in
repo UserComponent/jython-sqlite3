@@ -1,0 +1,7 @@
+include setup.py
+include *.rst *.txt
+recursive-include sqlite3 *.py
+
+exclude .gitignore
+prune .git
+prune dist
